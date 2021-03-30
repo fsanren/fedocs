@@ -88,9 +88,7 @@ if (true) {
   console.log(b) // ReferenceError
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
-<a name="objects"></a>
 ## 对象
 
 - [3.1](#3.1) <a name='3.1'></a> 使用字面值创建对象。
