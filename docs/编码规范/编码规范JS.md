@@ -39,7 +39,6 @@
   console.log(foo[0], bar[0]) // => 9, 9
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="references"></a>
 ## 引用
@@ -232,7 +231,6 @@ const obj = {
 }
 ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="arrays"></a>
 ## 数组
@@ -284,7 +282,6 @@ const obj = {
   const nodes = Array.from(foo)
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="destructuring"></a>
 ## 解构
@@ -351,7 +348,6 @@ const { left, right } = processInput(input);
 ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="strings"></a>
 ## Strings
@@ -407,7 +403,6 @@ function sayHi(name) {
 }
 ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="functions"></a>
 ## 函数
@@ -532,7 +527,6 @@ function concatenateAll(...args) {
 ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="arrow-functions"></a>
 ## 箭头函数
@@ -573,7 +567,6 @@ function concatenateAll(...args) {
 }, 0)
 ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="constructors"></a>
 ## 构造器
@@ -683,7 +676,6 @@ class PeekableQueue extends Queue {
   }
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="modules"></a>
 ## 模块
@@ -733,7 +725,6 @@ import { es6 } from './AirbnbStyleGuide'
 export default es6
 ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="iterators-and-generators"></a>
 ## Iterators and Generators
@@ -767,7 +758,7 @@ sum === 15
 
   > 为什么？因为它们现在还没法很好地编译到 ES5。 (译者注：目前(2016/03) Chrome 和 Node.js 的稳定版本都已支持 generators)
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="properties"></a>
 ## 属性
@@ -802,7 +793,7 @@ sum === 15
   const isJedi = getProp('jedi')
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="variables"></a>
 ## 变量
@@ -911,7 +902,7 @@ function(hasName) {
 }
 ```
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="hoisting"></a>
 ## Hoisting
@@ -1000,7 +991,7 @@ function(hasName) {
 
 - 想了解更多信息，参考 [Ben Cherry](http://www.adequatelygood.com/) 的 [JavaScript Scoping & Hoisting](http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting)。
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="comparison-operators--equality"></a>
 ## 比较运算符 & 等号
@@ -1048,7 +1039,7 @@ function(hasName) {
 
 - [15.4](#15.4) <a name='15.4'></a> 想了解更多信息，参考 Angus Croll 的 [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108)。
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="blocks"></a>
 ## 代码块
@@ -1099,7 +1090,7 @@ function(hasName) {
   ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="comments"></a>
 ## 注释
@@ -1185,7 +1176,7 @@ function(hasName) {
   }
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="whitespace"></a>
 ## 空白
@@ -1370,7 +1361,7 @@ function(hasName) {
   ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="commas"></a>
 ## 逗号
@@ -1410,7 +1401,7 @@ function(hasName) {
   ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="type-casting--coercion"></a>
 ## 类型转换
@@ -1468,7 +1459,7 @@ function(hasName) {
   ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="naming-conventions"></a>
 ## 命名规则
@@ -1603,7 +1594,7 @@ function(hasName) {
   ```
 
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="accessors"></a>
 ## 存取器
@@ -1658,7 +1649,7 @@ function(hasName) {
   }
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
+
 
 <a name="events"></a>
 ## 事件
@@ -1689,7 +1680,7 @@ function(hasName) {
   });
   ```
 
-  **[⬆ 返回目录](#table-of-contents)**
+
 
 
 ## jQuery
@@ -1751,35 +1742,12 @@ function(hasName) {
   $sidebar.find('ul').hide();
   ```
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="ecmascript-5-compatibility"></a>
 ## ECMAScript 5 兼容性
 
 - [26.1](#26.1) <a name='26.1'></a> 参考 [Kangax](https://twitter.com/kangax/) 的 ES5 [兼容性](http://kangax.github.com/es5-compat-table/).
 
-**[⬆ 返回目录](#table-of-contents)**
-
-<a name="ecmascript-6-styles"></a>
-## ECMAScript 6 规范
-
-- [27.1](#27.1) <a name='27.1'></a> 以下是链接到 ES6 的各个特性的列表。
-
-1. [Arrow Functions](#arrow-functions)
-2. [Classes](#constructors)
-3. [Object Shorthand](#es6-object-shorthand)
-4. [Object Concise](#es6-object-concise)
-5. [Object Computed Properties](#es6-computed-properties)
-6. [Template Strings](#es6-template-literals)
-7. [Destructuring](#destructuring)
-8. [Default Parameters](#es6-default-parameters)
-9. [Rest](#es6-rest)
-10. [Array Spreads](#es6-array-spreads)
-11. [Let and Const](#references)
-12. [Iterators and Generators](#iterators-and-generators)
-13. [Modules](#modules)
-
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="testing"></a>
 ## 性能
@@ -1791,9 +1759,7 @@ function(hasName) {
 - [jQuery Find vs Context, Selector](http://jsperf.com/jquery-find-vs-context-sel/13)
 - [innerHTML vs textContent for script text](http://jsperf.com/innerhtml-vs-textcontent-for-script-text)
 - [Long String Concatenation](http://jsperf.com/ya-string-concat)
-- Loading...
 
-**[⬆ 返回目录](#table-of-contents)**
 
 <a name="resources"></a>
 ## 资源
@@ -1874,7 +1840,7 @@ function(hasName) {
 - [JavaScript Jabber](http://devchat.tv/js-jabber/)
 
 
-**[⬆ 返回目录](#table-of-contents)**
+**[⬆ 返回顶部](#es6-style-guide)**
 
 <a name="in-the-wild"></a>
 
