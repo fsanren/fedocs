@@ -11,3 +11,10 @@ https://github.com/fsanren/fedocs
 [提issue教程](https://blog.csdn.net/cool99781/article/details/105821546)
 
 https://github.com/fsanren/fedocs/issues
+
+This document powered by [docsify](https://docsify.js.org/#/quickstart)
+
+预览
+```bash
+docsify serve docs
+```
